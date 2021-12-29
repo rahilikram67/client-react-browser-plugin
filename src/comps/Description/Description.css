@@ -1,0 +1,13 @@
+.widget-back-button {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 15px;
+}
+.widget-back-button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+.widget-ml-15px {
+    margin-left: 15px;
+}

@@ -1,0 +1,46 @@
+.widget-select-block{
+    width:320px !important;
+    height: 200px;
+    border-top: 1px solid #e5e5e5;
+    
+}
+@media (max-width:767px){
+    .widget-select-block{
+        margin:auto ;
+    }
+}
+@media (min-width: 768px) {
+    .widget-select-block{
+        margin-left: 40px;
+    }
+}
+.widget-select-block:hover{
+    background-color: #ccccccaa;
+    cursor: pointer;
+}
+.widget-option-select{
+    display: flex;
+    align-content: center;
+    justify-content: center;  
+    margin-top: 2px; 
+}
+
+.widget-option-circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #8247F5;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.widget-option-text{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 6px;
+    margin-top: 1px;
+}
+.widget-option-icon{
+    font-size: 32px !important;
+    margin-left: auto;
+}
